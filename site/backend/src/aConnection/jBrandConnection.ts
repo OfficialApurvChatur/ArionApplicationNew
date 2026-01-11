@@ -1,16 +1,16 @@
 const brandConnection = {
-  aBrandID: "boilerplate",
-  bBrandName: "Boilerplate",
+  aBrandID: "arion",
+  bBrandName: "Arion",
 
-  cFrontendApplicationName: "Boilerplate Frontend",
-  dAdministrationApplicationName: "Boilerplate Administration",
-  eBackendApplicationName: "Boilerplate Backend",
+  cFrontendApplicationName: "Arion Frontend",
+  dAdministrationApplicationName: "Arion Administration",
+  eBackendApplicationName: "Arion Backend",
 
-  fFrontendApplicationURL: "https://boilerplate-frontend-v02.netlify.app",
-  gAdminApplicationURL: "https://boilerplate-admin-v02.netlify.app",
-  hBackendApplicationURL: "https://boilerplate-backend-v02.netlify.app",
+  fFrontendApplicationURL: "https://arion-frontend-v02.netlify.app",
+  gAdminApplicationURL: "https://arion-admin-v02.netlify.app",
+  hBackendApplicationURL: "https://arion-backend-v02.netlify.app",
 
-  iEmailName: "@boilerplate.com",
+  iEmailName: "@arion.com",
 
   jInstagramURL: "https://www.google.com/",
   kXURL: "https://www.google.com/",
@@ -24,7 +24,7 @@ const brandConnection = {
       : this.pBackendLocalURL;
   },
   pBackendLocalURL: "http://localhost:8000",
-  qBackendProductionURL: "https://boilerplate-backend-v02.onrender.com",
+  qBackendProductionURL: "https://arion-backend-v02.onrender.com",
 
   get rFrontendBaseURL() {
     return process.env.ENVIRONMENT === "Production" ? [ 
@@ -51,10 +51,10 @@ const brandConnection = {
   sFrontendLocalURL7: "http://localhost:5179",
   sFrontendLocalURL8: "http://localhost:5180",
   sFrontendLocalURL9: "http://localhost:5181",
-  tFrontendProductionURL1: "https://boilerplate-admin-v02.netlify.app",
-  tFrontendProductionURL2: "https://boilerplate-frontend-v02.netlify.app",
+  tFrontendProductionURL1: "https://arion-admin-v02.netlify.app",
+  tFrontendProductionURL2: "https://arion-frontend-v02.netlify.app",
 
-  uTagName: "Skip setup. Start building.",
+  uTagName: "Empowering Admin Control, Unleashing Efficiency",
 }
 
 export default brandConnection;
