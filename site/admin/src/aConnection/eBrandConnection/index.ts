@@ -55,6 +55,11 @@ const brandConnection = {
   tFrontendProductionURL2: "https://arion-frontend-v02.netlify.app",
 
   uTagName: "Empowering Admin Control, Unleashing Efficiency",
+
+  vMainApplication: "Arion Application",
+  vFrontendApplication: "Arion Application (Frontend)",
+  vAdminApplication: "Arion Application (Admin)",
+  vBackendApplication: "Arion Application (Backend)",
 }
 
 export default brandConnection;
